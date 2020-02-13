@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Demo">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:orientation="horizontal"
+        android:background="@drawable/servicenow"
+        android:padding="10dp"
+        android:id="@+id/space">
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="InstanceNumber"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large">
+
+    </TextView>
+    <EditText
+        android:padding="10dp"
+        android:id="@+id/edittext"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:hint="InstanceNumber"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="10dp">
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="User Id"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large">
+
+    </TextView>
+    <EditText
+        android:id="@+id/LOGINID"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:hint="User Id"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="10dp">
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="Password"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large">
+
+    </TextView>
+    <EditText
+        android:id="@+id/PASSWORD"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:padding="10dp"
+        android:hint="Password"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="10dp">
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/save_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="#1493A3"
+        android:text="Login"
+
+        android:textColor="#B60D47" />
+
+</LinearLayout>
